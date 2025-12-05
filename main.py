@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import sys
 sys.setrecursionlimit(10**6)
 
-data = np.loadtxt('datasets/train_set_spaced.txt')
+data = np.loadtxt('train_set_spaced.txt')
 X = data[:, :2]
 y = data[:, 2].reshape(-1, 1)
 
