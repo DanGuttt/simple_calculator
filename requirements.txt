@@ -1,0 +1,7 @@
+beautifulsoup4
+requests
+re
+math
+numpy
+matplotlib
+sklearn
